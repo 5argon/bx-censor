@@ -1,8 +1,3 @@
-# bx-censor
-
-## 1. Copy this code
-
-```javascript
 // bxCensor 9/11/2017
 // กด F12 เปิด console แล้วแปะ กด Enter
 // พิมพ์ start() เริ่มใช้ พิมพ์ stop() หยุดใช้
@@ -44,18 +39,3 @@ var start = () => {
 var stop = () => {
     observer.disconnect();
 }
-```
-
-## 2. Open the developer console (usually `F12` key), paste the whole code and press enter.
-
-![paste](paste.png)
-
-## 3. Type `start()` and press enter to start. (Type `stop()` and press enter to stop, or if the page refreshes the code also stop)
-
-![start](start.png)
-
-## 4. You can use `censorList.push("____")` to add a new word while the code is running.
-
-![add](add.png)
-
-![filtered](filtered.png)
